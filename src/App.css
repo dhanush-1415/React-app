@@ -98,9 +98,14 @@ strong{
   width: 60%;
   background-color: #fff;
 }
-.c2>p,li{
+.c2>p{
   text-align: justify;
   text-indent: 50px;
+  line-height: 2.2rem;
+  font-size: 1.5rem;
+}
+li{
+  text-align: justify;
   line-height: 2.2rem;
   font-size: 1.5rem;
 }
@@ -152,7 +157,6 @@ background: linear-gradient(180deg, rgba(36,45,45,1) 0%, rgba(55,92,92,1) 100%);
 a{
   color: #fff;
   padding:10px 25px;
-  text-decoration: none;
 }
 
 
@@ -216,13 +220,14 @@ a{
     font-size: 0.8rem;
   }
   .ltext{
-    font-size: 1.2rem;
+    font-size: 1rem;
+    padding:3% 2%;
     margin-top: 10%;
   }
   .abtn , .bbtn{
-    margin-top: 15%;
-    width: 110px;
-    height: 45px;
+    margin-top: 2%;
+    width: 100px;
+    height: 40px;
     font-size: 0.8rem;
   }
   .abtn:hover , .bbtn:hover{
@@ -231,11 +236,11 @@ a{
     text-decoration:underline;
   }
   .shead{
-    font-size: 2.2rem;
+    font-size: 2rem;
     color: grey;
   }
   .c2h{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
   .c2{
     width: 90%;
@@ -243,10 +248,10 @@ a{
   }
   .c2>p,li{
     font-size: 0.9rem;
-    line-height: 20px;
+    line-height: 18px;
   }
   .c2>li{
-    line-height: 15px;
+    line-height: 13px;
   }
   .create{
     margin-top: -100px;
@@ -255,16 +260,16 @@ a{
     margin-top: 15%;
     color: wheat;
     padding-top: 7%;
-    font-size: 2.2rem;
+    font-size: 1.7rem;
   }
   .sh2{
     margin-top: 15%;
     color:rgba(55,92,92,1) ;
     padding-top: 7%;
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
   .sp{
-    font-size: 1rem;
+    font-size: 0.8rem;
     padding: 0 20px;
   }
   th{
@@ -289,14 +294,15 @@ a{
     border-radius: 2px;
     background-color: rgb(194, 27, 69);
   }
-  .last>.sh{
-    margin-top: 0;
-  }
   a{
-    font-size: 0.5rem;
+    font-size: 0.4rem;
     padding:10px 5px;
+    text-decoration: none;
   }
-  h4{
+  .ltex{
     font-size: 0.5rem;
+  }
+  .footer{
+    height: 170px;
   }
 }

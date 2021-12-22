@@ -144,8 +144,8 @@ useEffect(()=>{
      <button className='bhead'>Book a Demo</button>
      <br></br>
      <p className='ltext'><strong>"Lorem</strong> ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <strong>Tempor</strong> incididunt ut labore et dolore magna aliqua.
-       <br></br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-     <br></br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+       <br></br><strong>Ut</strong> enim ad minim veniam, quis nostrud exercitation ullamco <strong>laboris</strong> nisi ut aliquip ex ea commodo consequat.
+     <br></br><strong>Duis</strong> aute irure dolor in <strong>reprehenderit</strong> in voluptate <strong>vellit</strong> esse cillum dolore eu fugiat nulla <strong>pariatur</strong>.</p>
      <button className='abtn'>Contact Us</button>
      <button className='bbtn'>Recent Events</button>
      </div>
@@ -253,29 +253,6 @@ useEffect(()=>{
         }
       </table>
       </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       </div>
       <div className='footer'>
       <div className='ficon'>
@@ -292,7 +269,7 @@ useEffect(()=>{
         <h3><a href='https://rectangled.in/blog/'>Blog</a></h3>
       </div>
       <br/>
-      <h4>Copyright © 2021 Rectangled.in - All rights reserved</h4>
+      <h4 className='ltex'>Copyright © 2021 Rectangled.in - All rights reserved</h4>
       </div>
     </div>
     
