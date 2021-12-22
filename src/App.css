@@ -1,38 +1,302 @@
-.App {
+body{
+  margin: 0;
+}
+tr th{
+  width: 150px;
+  height: 25px;
+}
+td{
   text-align: center;
+  font-size: 1.5rem;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cont{
+  height:700px;
+  width: 100%;
+  text-align: center;
+  background: url(https://i.pinimg.com/originals/74/d9/3d/74d93de03b1687c6d55ae064ff508434.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.icont{
+  padding-top: 5%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+strong{
+  color: red;
+}
+.thead{
+  margin-top: 0;
+  font-size: 50px;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.phead{
+  font-size: 2rem;
+  color: white;
+}
+.bhead{
+  height: 60px;
+  width: 190px;
+  color: white;
+  background-color: rgba(226, 14, 78, 0.932);
+  border-radius: 25px;
+  border: 0;
+  font-size:1.1rem;
+  font-weight: bold;
+}
+.ltext{
+  margin-top: 4%;
+  color: white;
+  font-size: 1.6rem;
+}
+.abtn , .bbtn{
+  color: white;
+  border: 2px solid black;
+  width: 190px;
+  height: 55px;
+  border-radius: 25px;
+  margin-top: 3%;
+  margin-left: 6%;
+  font-size: 1.2rem;
+  background-color: darkslategray;
+}
+.abtn:hover , .bbtn:hover{
+  border: 0;
+  background-color: rgba(226, 14, 78, 0.932);
+}
+.tcont{
+  display: flex;
+  justify-content: center;
+  background-color:transparent;
+  width: 100%;
+  height: 800px;
+}
+.ebtn{
+  color: white;
+  font-size: 1.3rem;
+  border: 0;
+  border-radius: 5px;
+  background-color: rgb(71, 71, 150);
+}
+.dbtn{
+  color: white;
+  font-size: 1.3rem;
+  border: 0;
+  border-radius: 5px;
+  background-color: rgb(194, 27, 69);
+}
+.scont{
+  margin-top: -19px;
+}
+.shead{
+  margin:0;
+  padding-top: 4%;
+  text-align: center;
+  font-size: 4rem;
+}
+.c2{
+  margin-top: 7%;
+  height: 70%;
+  width: 60%;
+  background-color: #fff;
+}
+.c2>p,li{
+  text-align: justify;
+  text-indent: 50px;
+  line-height: 2.2rem;
+  font-size: 1.5rem;
+}
+.create{
+  text-align: center;
+  color: #fff;
+  padding-bottom: 7%;
+  background: rgb(36,45,45);
+background: linear-gradient(180deg, rgba(36,45,45,1) 0%, rgba(55,92,92,1) 100%);
+}
+.sh{
+  font-size: 3.5rem;
+  padding-bottom: 2%;
+}
+.sh2{
+  font-size: 3.5rem;
+  padding-bottom: 2%;
+  color:rgba(55,92,92,1) ;
+}
+.sp{
+  font-size: 1.6rem;
+  padding: 1% 10%;
+}
+.last{
+  text-align: center;
+  padding-bottom: 12%;
+  width: 100%;
+  height: 100%;
+}
+.footer{
+  padding-top:5%;
+  text-align: center;
+  width: 100%;
+  height: 250px;
+  color: white;
+  background-color: rgb(43, 34, 34);
+}
+.ficon{
+  width: 40%;
+  height: 50px;
+  margin: 0 auto;
+  display: flex;
+  justify-content:space-evenly;
+}
+.flink{
+  display: flex;
+  justify-content: center;
+}
+a{
+  color: #fff;
+  padding:10px 25px;
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+
+@media (max-width:900px) {
+  .thead{
+    font-size: 2rem;
   }
-  to {
-    transform: rotate(360deg);
+  .phead{
+    font: 1.2rem;
+  }
+  .c2{
+    width: 85%;
+  }
+  .sh{
+    padding-top: 5%;
+    color: wheat;
+    font-size: 2.8rem;
+  }
+  .sh2{
+    margin-top: 5%;
+    color:rgba(55,92,92,1) ;
+    padding-top: 7%;
+    font-size: 2.2rem;
+  }
+  .sp{
+    font-size: 1.5rem;
+  }
+  td{
+    font-size: 0.7rem;
+  }
+  .ebtn{
+    width: 40px;
+    font-size: 0.9rem;
+    height: 20px;
+  }
+  .dbtn{
+    width: 40px;
+    height: 20px;
+    font-size: 0.9rem;
+  }
+}
+
+
+
+
+@media (max-width:400px) {
+
+  .thead{
+    margin-top: 15%;
+    font-size: 1.3rem;
+  }
+  .phead{
+    margin-top: 7%;
+    font-size: 1rem;
+  }
+  .bhead{
+    width: 120px;
+    height: 35px;
+    margin-top: 7%;
+    font-size: 0.8rem;
+  }
+  .ltext{
+    font-size: 1.2rem;
+    margin-top: 10%;
+  }
+  .abtn , .bbtn{
+    margin-top: 15%;
+    width: 110px;
+    height: 45px;
+    font-size: 0.8rem;
+  }
+  .abtn:hover , .bbtn:hover{
+    border: 0;
+    background-color: rgba(226, 14, 78, 0.932);
+    text-decoration:underline;
+  }
+  .shead{
+    font-size: 2.2rem;
+    color: grey;
+  }
+  .c2h{
+    font-size: 1.3rem;
+  }
+  .c2{
+    width: 90%;
+    height: 50%;
+  }
+  .c2>p,li{
+    font-size: 0.9rem;
+    line-height: 20px;
+  }
+  .c2>li{
+    line-height: 15px;
+  }
+  .create{
+    margin-top: -100px;
+  }
+  .sh{
+    margin-top: 15%;
+    color: wheat;
+    padding-top: 7%;
+    font-size: 2.2rem;
+  }
+  .sh2{
+    margin-top: 15%;
+    color:rgba(55,92,92,1) ;
+    padding-top: 7%;
+    font-size: 2.2rem;
+  }
+  .sp{
+    font-size: 1rem;
+    padding: 0 20px;
+  }
+  th{
+    font-size: 0.7rem;
+  }
+  td{
+    font-size: 0.5rem;
+  }
+  .ebtn{
+    color: white;
+    border: 0;
+    font-size: 0.8rem;
+    width: 30px;
+    border-radius: 2px;
+    background-color: rgb(71, 71, 150);
+  }
+  .dbtn{
+    color: white;
+    border: 0;
+    width: 30px;
+    font-size: 0.8rem;
+    border-radius: 2px;
+    background-color: rgb(194, 27, 69);
+  }
+  .last>.sh{
+    margin-top: 0;
+  }
+  a{
+    font-size: 0.5rem;
+    padding:10px 5px;
+  }
+  h4{
+    font-size: 0.5rem;
   }
 }
